@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .square {
+        aspect-ratio: 1 / 1;
+    }
+}
+
+@layer components {
+  
+
+    .tile {
+        @apply hover:transition-opacity 
+    }
+
+    .tile > img {
+     @apply w-full h-full opacity-0
+    }
+
+   
+
+    .tile:hover > img {
+        @apply opacity-100 duration-700
+    }
+
+  }
