@@ -25,7 +25,7 @@ export default function Footer() {
                     {/* hot-line, online order-support, markets */}
                     social links
                     <div className=" text-2xl text-gray-600">
-                        <FontAwesomeIcon icon={faGithub}  className="hover:text-violet-900 cursor-pointer px-2" />
+                        <a href="https://github.com/rokoworlds/fruitstore" target='_blank'><FontAwesomeIcon icon={faGithub}  className="hover:text-violet-900 cursor-pointer px-2" /></a>
                         <FontAwesomeIcon icon={faFacebook}  className="hover:text-blue-800 cursor-pointer px-2" />
                         <FontAwesomeIcon icon={faInstagram} className=" hover:text-rose-500 cursor-pointer px-2" />
                         <FontAwesomeIcon icon={faTelegram} className="hover:text-sky-400 cursor-pointer px-2" />
