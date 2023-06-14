@@ -36,7 +36,7 @@ export default function Footer() {
                 <div className="mt-12 text-xs text-gray-600">
                 © ROKO 2023
                 </div>
-                <a href="https://rokoworlds.github.io/roko-portfolio/" target='_blank' className="col-start-3 text-center mt-12 text-sm text-gray-600 cursor-pointer hover:text-teal-500">
+                <a href="https://rokoworlds.github.io/roko-portfolio-v2/" target='_blank' className="col-start-3 text-center mt-12 text-sm text-gray-600 cursor-pointer hover:text-teal-500">
                 <span className="text-xs">made by</span> ROKO:Dev
                 </a>
         </div>
